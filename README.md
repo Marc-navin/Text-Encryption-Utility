@@ -17,10 +17,16 @@ os module for key file management
 🛠️ Key Features Implemented:
 Feature	Description
 🔐 Key Generation & Storage	Generates an AES-based Fernet key and saves it to key.key file to ensure consistent encryption/decryption across sessions.
+
 📝 Encryption Option	Accepts plaintext input and returns encrypted ciphertext using the Fernet scheme.
+
 🔓 Decryption Option	Accepts ciphertext input and returns the original message (plaintext).
+
+
 🚫 Common Error Handling	Prevents app crash due to invalid menu input or empty strings.
+
 🔁 Continuous Loop	The utility runs in a loop allowing multiple operations without restarting the script.
+
 
 🧪 How It Works:
 On first run, a key is generated and saved.
